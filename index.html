@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayam Geprek Nia - Restoran Makanan Lezat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="48" fill="#fff" opacity="0.1"/>
+                    <text x="50" y="60" font-size="50" font-weight="bold" text-anchor="middle" fill="#fff">🍗</text>
+                </svg>
+                <h1>Geprek Nia</h1>
+            </div>
+            <nav class="nav">
+                <a href="#home">Beranda</a>
+                <a href="#menu">Menu</a>
+                <a href="#tentang">Tentang</a>
+                <a href="#kontak">Kontak</a>
+                <a href="https://wa.me/6285719463402" class="nav-whatsapp" target="_blank">💬 WhatsApp</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+        </div>
+        <div class="hero-content">
+            <span class="hero-badge">🔥 TRENDING NOW</span>
+            <h2>Ayam Geprek Nia</h2>
+            <p>Crispy • Spicy • Delicious</p>
+            <a href="https://wa.me/6285719463402?text=Halo%20Geprek%20Nia%2C%20saya%20ingin%20memesan..." class="btn-order" target="_blank">Pesan Sekarang →</a>
+        </div>
+        <div class="hero-image">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="chicken-svg">
+                <circle cx="100" cy="100" r="95" fill="rgba(255,255,255,0.1)" stroke="#fff" stroke-width="2"/>
+                <text x="100" y="120" font-size="80" text-anchor="middle" fill="#fff">🍗</text>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Menu Favorit</h2>
+            <p class="section-subtitle">Pilihan terbaik yang paling laris di Nia</p>
+            
+            <div class="menu-grid">
+                <!-- Menu Item 1 -->
+                <div class="menu-item">
+                    <div class="menu-image">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="50" fill="#FFE5CC"/>
+                            <text x="50" y="65" font-size="60" text-anchor="middle">🍗</text>
+                        </svg>
+                    </div>
+                    <h3>Geprek Standar</h3>
+                    <p>Ayam goreng tepung renyah dengan sambal geprek yang pedas & gurih</p>
+                    <div class="menu-badge">⭐ BEST SELLER</div>
+                    <span class="price">Rp 25.000</span>
+                    <button class="btn-add">Tambah →</button>
+                </div>
+
+                <!-- Menu Item 2 -->
+                <div class="menu-item featured">
+                    <div class="menu-image">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="50" fill="#FFB6C1"/>
+                            <text x="50" y="65" font-size="60" text-anchor="middle">🔥</text>
+                        </svg>
+                    </div>
+                    <div class="featured-badge">TRENDING</div>
+                    <h3>Geprek Pedas</h3>
+                    <p>Ayam geprek dengan level pedas ekstra, sambal rawit yang mantap!</p>
+                    <div class="menu-badge">🌶️ PEDAS</div>
+                    <span class="price">Rp 28.000</span>
+                    <button class="btn-add">Tambah →</button>
+                </div>
+
+                <!-- Menu Item 3 -->
+                <div class="menu-item">
+                    <div class="menu-image">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="50" fill="#FFFACD"/>
+                            <text x="50" y="65" font-size="60" text-anchor="middle">🧅</text>
+                        </svg>
+                    </div>
+                    <h3>Geprek Bawang</h3>
+                    <p>Ayam geprek dengan taburan bawang merah & putih yang harum</p>
+                    <div class="menu-badge">🧄 WANGI</div>
+                    <span class="price">Rp 26.000</span>
+                    <button class="btn-add">Tambah →</button>
+                </div>
+
+                <!-- Menu Item 4 -->
+                <div class="menu-item">
+                    <div class="menu-image">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="50" fill="#E0D5B7"/>
+                            <text x="50" y="65" font-size="60" text-anchor="middle">🍚</text>
+                        </svg>
+                    </div>
+                    <h3>Paket Nasi Lengkap</h3>
+                    <p>Ayam geprek + nasi + sayur + minuman gratis. Hemat & puas!</p>
+                    <div class="menu-badge">💰 HEMAT</div>
+                    <span class="price">Rp 35.000</span>
+                    <button class="btn-add">Tambah →</button>
+                </div>
+
+                <!-- Menu Item 5 -->
+                <div class="menu-item">
+                    <div class="menu-image">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="50" fill="#E0FFFF"/>
+                            <text x="50" y="65" font-size="60" text-anchor="middle">🥤</text>
+                        </svg>
+                    </div>
+                    <h3>Es Teh Manis</h3>
+                    <p>Minuman segar untuk menemani makanan Anda di hari yang panas</p>
+                    <div class="menu-badge">❄️ SEGAR</div>
+                    <span class="price">Rp 5.000</span>
+                    <button class="btn-add">Tambah →</button>
+                </div>
+
+                <!-- Menu Item 6 -->
+                <div class="menu-item">
+                    <div class="menu-image">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="50" fill="#FFE4B5"/>
+                            <text x="50" y="65" font-size="60" text-anchor="middle">🍌</text>
+                        </svg>
+                    </div>
+                    <h3>Gorengan Pisang</h3>
+                    <p>Pisang goreng yang renyah dengan topping gula halus. Enak!</p>
+                    <div class="menu-badge">🍋 SWEET</div>
+                    <span class="price">Rp 8.000</span>
+                    <button class="btn-add">Tambah →</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Peta Section -->
+    <section id="peta" class="peta">
+        <div class="container">
+            <h2 class="section-title">Lokasi Kami</h2>
+            <p class="section-subtitle">Kunjungi toko kami di UIN Banten</p>
+            <div class="peta-container">
+                <iframe class="peta-embed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.8637779384717!2d106.16564!3d-6.297699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e42017f0c0c0001%3A0x0!2sUIN%20Sultan%20Maulana%20Hasanuddin%20Banten!5e0!3m2!1sid!2sid!4v1687000000000" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="alamat-text">📍 Jl. Syech Nawawi, Serang, Banten 42161</p>
+        </div>
+    </section>
+
+    <!-- Tentang Section -->
+    <section id="tentang" class="tentang">
+        <div class="container">
+            <h2 class="section-title">Tentang Kami</h2>
+            <div class="tentang-content">
+                <div class="tentang-text">
+                    <h3>Mengapa Pilih Kami?</h3>
+                    <ul class="tentang-list">
+                        <li>✓ Bahan-bahan segar dan berkualitas tinggi</li>
+                        <li>✓ Resep rahasia yang telah teruji</li>
+                        <li>✓ Pelayanan cepat dan ramah</li>
+                        <li>✓ Harga terjangkau untuk semua kalangan</li>
+                        <li>✓ Kebersihan terjamin</li>
+                        <li>✓ Tersedia untuk dine-in dan takeaway</li>
+                    </ul>
+                </div>
+                <div class="tentang-image">
+                    <div class="image-placeholder">🏪</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak" class="kontak">
+        <div class="container">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <div class="kontak-content">
+                <div class="kontak-item">
+                    <h3>📍 Lokasi</h3>
+                    <p>Jl. Merdeka No. 123<br>Jakarta, Indonesia</p>
+                </div>
+                <div class="kontak-item">
+                    <h3>� WhatsApp</h3>
+                    <p>085719463402</p>
+                    <a href="https://wa.me/6285719463402" class="btn-whatsapp" target="_blank">Chat WhatsApp</a>
+                </div>
+                <div class="kontak-item">
+                    <h3>⏰ Jam Operasional</h3>
+                    <p>Senin - Minggu<br>10:00 - 22:00 WIB</p>
+                </div>
+                <div class="kontak-item">
+                    <h3>📧 Email</h3>
+                    <p>info@ayamgepreknia.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Ayam Geprek Nia. Semua hak dilindungi. | Dibuat dengan ❤️</p>
+        </div>
+    </footer>
+</body>
+</html>
