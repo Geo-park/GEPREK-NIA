@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Ayam Geprek Nia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="48" fill="#fff" opacity="0.1"/>
+                    <text x="50" y="60" font-size="50" font-weight="bold" text-anchor="middle" fill="#fff">🍗</text>
+                </svg>
+                <h1>Geprek Nia</h1>
+            </div>
+            <nav class="nav">
+                <a href="index.html">Beranda</a>
+                <a href="index.html#menu">Menu</a>
+                <a href="index.html#tentang">Tentang</a>
+                <a href="index.html#kontak">Kontak</a>
+                <a href="https://wa.me/6285719463402" class="nav-whatsapp" target="_blank">💬 WhatsApp</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="login">
+        <div class="container">
+            <div class="login-card">
+                <div class="login-card-header">
+                    <h2>Login Pelanggan</h2>
+                    <p>Masuk untuk melihat promo, memesan lebih cepat, dan mengunduh laprak.</p>
+                </div>
+                <form class="login-form" action="index.html" method="get">
+                    <div class="form-group">
+                        <label for="email">Email atau Username</label>
+                        <input type="text" id="email" name="email" class="login-input" placeholder="contoh@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Kata Sandi</label>
+                        <input type="password" id="password" name="password" class="login-input" placeholder="Masukkan kata sandi" required>
+                    </div>
+                    <div class="login-actions">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="remember">
+                            Ingat saya
+                        </label>
+                    </div>
+                    <button type="submit" class="btn-login">Masuk Sekarang</button>
+                    <p class="login-note">Belum punya akun? <a href="signup.html">Daftar di sini</a>.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
